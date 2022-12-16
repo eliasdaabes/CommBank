@@ -1,0 +1,54 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+</head>
+
+<body>
+  <div class="signupbox">
+    <img src="{% static 'app/images/volunteer.png' %}" class="avatar">
+    <h1>Volunteer Sign Up</h1>
+    <form class="" action="index" method="post">
+      <p>Full Name</p>
+      <input type="text" name="" placeholder="Enter your Full Name">
+      <p>ID</p>
+      <input type="text" name="" placeholder="Enter your ID">
+      <p>Birthdate</p>
+      <input type="date" name="" placeholder="Enter your Birthdate">
+      <p>Password</p>
+      <input type="password" name="" placeholder="Enter Password">
+      <p>Email</p>
+      <input type="text" name="" placeholder="Enter your Email">
+      <p>Phone Number</p>
+      <input type="tel" name="" placeholder="Enter Phone Number">
+
+      <p>Choose a place:</p>
+
+      <select name="pets" id="pet-select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+      </select>
+      <p>Upload Student Permit</p>
+      <input type="file" id="studentFile" name="filename">
+      <p>Upload Id</p>
+      <input type="file" id="IDFile" name="filename">
+      <p>Upload Bank account permit</p>
+      <input type="file" id="bankFile" name="filename">
+      <input type="submit" name="" value="Sign Up"><br>
+
+    </form>
+
+  </div>
+</body>
+
+</html>

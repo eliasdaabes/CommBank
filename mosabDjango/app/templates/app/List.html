@@ -1,0 +1,36 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+</head>
+
+<body>
+  <div class="list">
+    <h1>Please select user type to sign up</h1>
+    <a href="/managerSignIn">
+      <div class="selectionButton">
+        <img src="{% static 'app/images/manager.png' %}" class="shapIcone" />
+        <h1>Manager</h1>
+      </div>
+    </a>
+    <a href="/secretarySignIn">
+    <div class="selectionButton">
+      <img src="{% static 'app/images/secretary.png' %}" class="shapIcone">
+      <h1>Secretary</h1>
+    </div>
+  </a>
+    <a href="/volunteerSignIn">
+      <div class="selectionButton">
+        <img src="{% static 'app/images/volunteer.png' %}" class="shapIcone">
+        <h1>Volunteer</h1>
+      </div>
+    </a>
+  </div>
+</body>
+
+</html>

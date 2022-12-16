@@ -1,0 +1,230 @@
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3AB4F2;
+    font-family: sans-serif;
+    background-position: center;
+}
+
+.loginbox {
+    width: 320px;
+    height: 420;
+    background: #0078AA;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    border-radius: 10%;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 135px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+select {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+option {
+    background-color: #3AB4F2;
+}
+
+.loginbox p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+    .loginbox input[type="text"], input[type="password"] {
+        border: none;
+        border-bottom: 1px solid #fff;
+        background: transparent;
+        height: 40px;
+        color: #fff;
+        font-size: 16px;
+    }
+
+    .loginbox input[type="submit"] {
+        border: none;
+        height: 40px;
+        background: #F2DF3A;
+        color: #F6F6F6;
+        font-size: 18px;
+        border-radius: 20px;
+    }
+
+
+
+.loginbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F6F6F6;
+}
+
+    .loginbox a:hover {
+        color: #F2DF3A;
+    }
+
+.list {
+    width: 320px;
+    height: 420;
+    background: #0078AA;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    border-radius: 25px;
+}
+
+.selectionButton {
+    background-color: #F2DF3A;
+    margin: 20px 0 10px 0;
+    border-radius: 10px;
+}
+
+    .selectionButton:hover {
+        background-color: lightyellow;
+        height: 110%;
+    }
+
+.shapIcone {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    left: 120px;
+    padding-top: 10px
+}
+
+
+.signupbox {
+    width: 320px;
+    background: #0078AA;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 70px 30px;
+    border-radius: 20px;
+    margin: 250px 0;
+}
+
+
+    .signupbox p {
+        margin: 0;
+        padding: 0;
+        font-weight: bold;
+    }
+
+    .signupbox input {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+        .signupbox input[type="text"], input[type="password"], input[type="date"], input[type="tel"] {
+            border: none;
+            border-bottom: 1px solid #fff;
+            background: transparent;
+            height: 40px;
+            color: #fff;
+            font-size: 16px;
+        }
+
+
+
+::placeholder {
+    color: lightgrey;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.signupbox input[type="submit"] {
+    border: none;
+    height: 40px;
+    background: #F2DF3A;
+    color: #F6F6F6;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.signupbox a {
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: #F6F6F6;
+}
+
+    .signupbox a:hover {
+        color: #F2DF3A;
+    }

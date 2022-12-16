@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+
+
+</head>
+
+<body>
+    <div class="loginbox">
+        <img src="{% static 'app/images/avatar.png' %}" class="avatar">
+        <h1>Login To Community Bank</h1>
+        <form class="" action="index" method="post">
+            <p>ID</p>
+            <input type="text" name="" placeholder="Enter your ID">
+            <p>Password</p>
+            <input type="password" name="" placeholder="Enter your Password">
+            <input type="submit" name="" value="Login"><br>
+            <a href="/forgetPassword">Forget password?</a><br>
+            <a href="/list">Don't have an account?</a>
+
+        </form>
+
+    </div>
+</body>
+
+</html>
